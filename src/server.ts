@@ -38,3 +38,4 @@ app.register(subscribeToEventRoute)
 app.listen({ port: env.PORT }).then(()=> {
     console.log('HTTP server running!')
 })
+
